@@ -1,0 +1,50 @@
+.signup{
+    position: relative;
+    margin-top: 125rem;
+    padding-left: 5rem;   
+}
+
+.barbieimage{
+    display: flex;
+    position: absolute;
+    height: 30vh;
+    width: 35vw ;
+}
+.barbieimage>img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+}
+.signupbox{
+    display: flex;
+    height: 30vh;
+    width: 70vh;
+    margin-left: 28rem;
+    background: rgb(255, 227, 210);
+
+}
+.signupbox h4{
+    margin-left: 11rem;
+    margin-top: 4rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signupbox input{
+    margin-top: 8rem;
+    margin-left: -21rem;
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    
+    
+}
+.signinbtn{
+    margin-top: 8rem;
+    height: 2.3rem;
+    width: 6rem;
+    background: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

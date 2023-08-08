@@ -1,0 +1,147 @@
+
+.maincard{
+    
+    display: flex;
+   height: 40vh;
+   width: 100%;
+   position: absolute;
+   margin-top: 45rem;
+   padding-left:5rem ;
+   padding-right: 10rem;
+}
+/* for left card */
+.leftcard{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+   
+}
+.leftcard>img{
+    width: 100%;
+}
+.leftcardh3 h3{
+    margin-top: 30rem;
+    margin-left: -13.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(111, 110, 110, 0.653);
+}
+ 
+/* for bottom card */
+
+.bottomcard{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+    margin-left: 4rem;
+
+}
+
+ .bottomcard>img{
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+ }
+ .bottomcardh3 h3{
+    margin-top: 30rem;
+    margin-left: -13.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(111, 110, 110, 0.653);
+ }
+/* for right card */
+.rightcard{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+    margin-left: 4rem;
+
+
+}
+.rightcard>img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.rightcardh3 h3{
+    margin-top: 30rem;
+    margin-left: -13rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(111, 110, 110, 0.653);
+}
+
+
+/* for buttons */
+.button2{
+   
+    margin-top: 32rem;
+    margin-left: -12rem;
+    border: none;
+    background: none;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button2 a{
+    color: black;
+}
+
+
+
+/* bottom main */
+
+
+.bottommain{
+    position: absolute;
+    margin-top: 85rem;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    margin-left: 5rem;
+}
+/* for bottom left */
+
+.bottomleft{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+}
+.bottomleft img{
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+}
+ 
+/* for bottommid */
+
+.bottommid{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+    margin-left: 4rem;
+}
+.bottommid img{
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+}
+
+/* for bottom right */
+
+.bottomright{
+    display: flex;
+    height: 50vh;
+    width: 25%;
+    margin-left: 4rem;
+}
+
+.bottomright img{
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+
+
+

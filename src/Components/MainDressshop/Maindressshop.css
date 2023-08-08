@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 7vh;
+    background: rgb(248, 213, 191);
+    border-radius: 2px;
+    opacity: 70%;
+  position: sticky;
+    
+}
+
+.baroqueshopimg{
+    position: absolute;
+    height: 60vh;
+    width: 50vw;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.baroqueshopimg>img{
+    height: 60vh;
+    width: 50vw;
+    background-position: center;
+    background-size: contain;
+}
+
+.rightbroque{
+    position: absolute;
+    display: flex;
+    height: 60vh;
+    margin-top: 3rem;
+    margin-left: 47rem;
+    width: 30vw;
+}
+
+.about h3{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -0.01rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+.about h2{
+    margin-top: 4rem;
+    color: black;
+}
+.type{
+    display: flex;
+    margin-left: 3rem;
+}
+.type>h4{
+    
+    font-size: 2rem;
+    color: black;
+    font-weight:bolder ;
+}
+.type button{
+    margin-left: 3rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    
+}
+.color{
+    display: flex;
+    margin-left: -11rem;
+    margin-top: 6rem;
+}
+.color h4{
+    font-size: 2rem;
+    color: black;
+    font-weight:bolder ;
+}
+.color button{
+    width: 4rem;
+    left: -2rem;
+    
+}
+
+.size{
+    display: flex;
+    margin-left: -11rem;
+    margin-top: 12rem;
+}
+.size h4{
+    font-size: 2rem;
+    color: black;
+    font-weight:bolder ;
+}
+.size button{
+    width: 4rem;
+}
+.about hr{
+    width: 24rem;
+}
+.left>img{
+    transform: scale(0.05);
+    position: relative;
+    margin-top: -14rem;
+    left: -10rem;
+    display: flex;
+    cursor: pointer;
+   
+}
+
+.left>span{
+    position: relative;
+  
+    font-size: 23px;
+    left: 7.5rem;
+    top: -17rem;
+    cursor: pointer;
+}
+
+.bottom>img{
+    transform: scale(0.2);
+    position: relative;
+    left: -62rem;
+    top: -46.5rem;
+    cursor: pointer;
+}
+.right{
+    margin-left: 15rem;
+}
+.right>:nth-of-type(1){
+    transform: scale(0.06);
+     margin-left: -220rem;
+     margin-top: -14rem;
+     cursor: pointer;
+     
+}
+.right>:nth-of-type(2){
+    transform: scale(0.05);
+    margin-left: -217rem;
+     margin-top: -32.3rem;
+     cursor: pointer;
+}
+.right>:nth-of-type(3){
+    transform: scale(0.06);
+    margin-left: -210rem;
+     margin-top: -32.4rem;
+     cursor: pointer;
+}
+.right>:nth-of-type(4){
+    transform: scale(0.06);
+    margin-left: -205rem;
+    margin-top: -32.3rem;
+    cursor: pointer;
+}
+.btnshop{
+    position: relative;
+    cursor: pointer;
+    left: -143rem;
+    top: 33rem;
+    width: 9rem;
+    height: 3rem;
+    font-size: 24px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    opacity: 100%;
+    border: none;
+}
+
+.shopbtn1{
+    margin: 2rem;
+}
+.wishlist{
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+.cart{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+.Buy {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.Linksss{
+    margin-top: 60rem;
+}

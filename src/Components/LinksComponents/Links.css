@@ -1,0 +1,84 @@
+
+.links{
+   
+    height: 30vh;
+    
+    background: #fcefef;
+    margin-top: 4rem;
+    width: 95vw;
+}
+.buttons{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.btn2{
+    border: none;
+    background-color:  #fcefef;
+    margin-top: 1.5rem;
+}
+.btn2 a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+
+}
+.btn2 a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.fb{
+    transform: scale(0.04);
+    margin-top: -12rem;
+    margin-left: 17rem;
+}
+.instagram{
+    transform: scale(0.04);
+    margin-top: -32.4rem;
+    margin-left: -2rem;
+}
+
+.tiktok{
+    transform: scale(0.04);
+    margin-top: -32.3rem;
+    margin-left: 3rem;
+
+}
+.atms{
+    margin-top: -13rem;
+    margin-left: 30rem;
+}
+.atms h3{
+    color: gray;
+}
+.atms>:nth-of-type(1){
+    transform: scale(0.06);
+    margin-top: -3.5rem;
+    margin-left: -6rem;
+}
+h3{
+    margin-top: -11rem;
+    margin-left: 30rem;
+    color: gray;
+}
+.visa{
+   display: flex;
+   transform: scale(0.06);
+   margin-top: -32.5rem;
+   margin-left: -2rem;
+}
+
+
+.footer{
+    height: 3vh;
+    width: 100%;
+    background: black;
+    margin-bottom: 0;
+    clear: both;
+}
+.footer p{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
